@@ -1,1 +1,3 @@
-declare export default function useKeyPress(handler: (SyntheticKeyboardEvent<any>) => void): void;
+declare export default function useKeyPress(
+  handler: (event: SyntheticKeyboardEvent<any>) => void
+): void;
